@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --mode development --open"
+    "dev": "webpack-dev-server --mode development --open",
+    "publish": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
