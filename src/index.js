@@ -1,3 +1,3 @@
 export default function dashboard() {
-    console.log('im dashboard3')
+    console.log('im dashboard4')
 }
