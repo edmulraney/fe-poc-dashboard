@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "dev": "webpack-dev-server --mode development --open",
-    "prepublish": "git add . && git commit -m 'publishing' && git push && npm run build && npm version patch"
+    "prepublish": "npm run build && git add . && git commit -m 'publishing' && git push && npm version patch"
   },
   "repository": {
     "type": "git",
